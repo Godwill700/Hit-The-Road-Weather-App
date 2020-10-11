@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple weather App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <input type="text" autocomplete="off" class="search-box" placeholder="Enter city name...">
+    </header>
+    <main>
+    <div class="main-container">
+        <div class="location-date">
+        <div class="location">
+            <h1 class="location-timezone">Timezone</h1>
+        </div>
+        <div class="date">
+            <p class="day">Sunday 22/08/2020</p>
+            <p class="wind-speed">Wind 6km</p> 
+        </div>
+        </div>
+        <div class="grid-container">
+            <div class="icon-container">
+                <svg>
+                    <img src="./Icons/climacon-sun.svg" alt="" class="icon">
+                </svg>
+            </div>
+            <div class="temperature">
+                <div class="degree-section">
+                    <h2 class="temperature-degree"></h2>
+                    <span>&#176</span><span class="temptoggle">C</span>
+                </div>
+            </div>
+        </div>
+        <div class="temperature-description">Cold as hell</div>
+    </div><!-- main-container-->
+</main>
+
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

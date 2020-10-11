@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  color: #000000;
+}
+
+// ******Variables*********
+
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  height: 100vh;
+  background-image: url(../images/pexels-sebastian-palomino-1955134.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  header {
+    display: flex;
+    justify-content: center;
+
+    input {
+      width: 25rem;
+      margin: 4em;
+      padding: 0.75em;
+      outline: none;
+      border-radius: 15px 0px;
+      border: none;
+      font-size: 1.35em;
+      background-color: rgba($color: #000000, $alpha: 0.9);
+      color: #ffffff;
+    }
+  }
+}
+.main-container {
+  width: 90%;
+  margin: auto;
+  border-radius: 20px;
+  background-color: rgba($color: #ffffff, $alpha: 0.5);
+  .location-date {
+    text-align: center;
+    font-weight: 100;
+  }
+
+  .grid-container {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .icon-container {
+      width: 10rem;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .temperature {
+      font-size: 1.7em;
+      .degree-section {
+        text-align: center;
+        padding: 1em 0rem;
+        h2 {
+          text-align: center;
+        }
+        span {
+          display: inline-block;
+          font-size: 1.7em;
+        }
+      }
+    }
+  }
+  .temperature-description {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 2em 0rem;
+  }
+}

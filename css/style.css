@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  color: #000000;
+}
+
+body {
+  height: 100vh;
+  background-image: url(../images/pexels-sebastian-palomino-1955134.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body header input {
+  width: 25rem;
+  margin: 4em;
+  padding: 0.75em;
+  outline: none;
+  border-radius: 15px 0px;
+  border: none;
+  font-size: 1.35em;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #ffffff;
+}
+
+.main-container {
+  width: 90%;
+  margin: auto;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.main-container .location-date {
+  text-align: center;
+  font-weight: 100;
+}
+
+.main-container .grid-container {
+  width: 90%;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.main-container .grid-container .icon-container {
+  width: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-container .grid-container .temperature {
+  font-size: 1.7em;
+}
+
+.main-container .grid-container .temperature .degree-section {
+  text-align: center;
+  padding: 1em 0rem;
+}
+
+.main-container .grid-container .temperature .degree-section h2 {
+  text-align: center;
+}
+
+.main-container .grid-container .temperature .degree-section span {
+  display: inline-block;
+  font-size: 1.7em;
+}
+
+.main-container .temperature-description {
+  text-align: center;
+  font-size: 1.5em;
+  padding: 2em 0rem;
+}
+/*# sourceMappingURL=style.css.map */
