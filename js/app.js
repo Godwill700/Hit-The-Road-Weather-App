@@ -17,7 +17,7 @@ window.addEventListener("load", () => {
       long = position.coords.longitude;
       lat = position.coords.latitude;
 
-      const api = `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&units=metric&appid=678afea2cacd45f15cb8c12cf204d91e`;
+      const api = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&units=metric&appid=678afea2cacd45f15cb8c12cf204d91e`;
 
       fetch(api)
         .then((response) => {
