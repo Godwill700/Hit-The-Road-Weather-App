@@ -7,6 +7,8 @@
     <title>Hit The Road Weather App</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/6998af91f9.js" crossorigin="anonymous"></script>
+   
 </head>
 
 <body>
@@ -20,8 +22,7 @@
             <h1 class="location-timezone">Timezone</h1>
         </div>
         <div class="date">
-            <p class="day">Sunday 22/08/2020</p>
-            <p class="wind-speed">Wind 6km</p> 
+            <p class="current-date">Sunday 22/08/2020</p>
         </div>
         </div>
         <div class="grid-container">
@@ -35,14 +36,25 @@
                     <h2 class="temperature-degree"></h2>
                     <span>&#176</span><span class="temptoggle">C</span>
                 </div>
+                <div class="hi-lo">
+                    <p><i class="fas fa-long-arrow-alt-up"></i><span class="hi">Hi</span>&#176  <i class="fas fa-long-arrow-alt-down"></i><span class="lo">Lo</span>&#176</p>
+                </div>
             </div>
         </div>
-        <div class="temperature-description">Cold as hell</div>
+        <div class="description">
+            <p class="temperature-description">Cold as hell</p></div>
+        <div class="wind-container">
+            <div class="wind-icon">
+                
+            </div>
+            <p class="wind-description">Wind speed <span class="wind-speed"></span>km/h</p> 
+        </div>
     </div><!-- main-container-->
 </main>
 
 
-    <script src="./js/app.js"></script>
+    <!-- <script src="./js/app.js"></script> -->
+    <script src="./js/test app.js"></script>
 </body>
 
 </html>

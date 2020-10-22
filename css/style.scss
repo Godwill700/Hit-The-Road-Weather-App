@@ -54,13 +54,13 @@ body {
 
     .icon-container {
       width: 10rem;
-
       display: flex;
       justify-content: center;
       align-items: center;
     }
     .temperature {
       font-size: 1.7em;
+
       .degree-section {
         text-align: center;
         padding: 1em 0rem;
@@ -72,11 +72,27 @@ body {
           font-size: 1.7em;
         }
       }
+      .hi-lo {
+        text-align: center;
+        padding-bottom: 0.35em;
+        font-size: 0.7em;
+        display: inline;
+        .fas {
+          font-size: 1.1em;
+        }
+      }
     }
   }
   .temperature-description {
     text-align: center;
     font-size: 1.5em;
-    padding: 2em 0rem;
+    padding: 1em 0.75em 0rem;
+  }
+  .wind-container {
+    .wind-description {
+      text-align: center;
+      font-size: 0.85em;
+      padding: 0.75em 0rem;
+    }
   }
 }

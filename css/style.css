@@ -88,9 +88,26 @@ body header input {
   font-size: 1.7em;
 }
 
+.main-container .grid-container .temperature .hi-lo {
+  text-align: center;
+  padding-bottom: 0.35em;
+  font-size: 0.7em;
+  display: inline;
+}
+
+.main-container .grid-container .temperature .hi-lo .fas {
+  font-size: 1.1em;
+}
+
 .main-container .temperature-description {
   text-align: center;
   font-size: 1.5em;
-  padding: 2em 0rem;
+  padding: 1em 0.75em 0rem;
+}
+
+.main-container .wind-container .wind-description {
+  text-align: center;
+  font-size: 0.85em;
+  padding: 0.75em 0rem;
 }
 /*# sourceMappingURL=style.css.map */
