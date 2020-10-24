@@ -72,6 +72,7 @@ body header input {
 
 .main-container .grid-container .temperature {
   font-size: 1.7em;
+  cursor: pointer;
 }
 
 .main-container .grid-container .temperature .degree-section {
